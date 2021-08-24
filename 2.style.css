@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    background-color:#16161A !important;
+}
+
+img{
+    padding:30px;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio{
+font-family: 'Inter';
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+color:#ffffff;
+padding:20px;
+}
+
+.btn-danger{
+height:50px;
+width:90%;
+background-color: #EF4565 !important;
+font-family: 'Inter' !important;
+font-weight: bold !important;
+}
+
+.linea{
+    border: 1px solid #94A1B2 !important;
+    width:90%;
+}
+
+.lab-correo{
+    font-family: 'Inter';
+    font-weight: normal !important;
+    color:#ffffff;
+}
+
+.inp-correo{
+    height:50px;
+width:90%;
+}
+
+#a1{
+    font-family: 'Inter'; 
+    color:#2CB67D;
+}
+
+span{
+    font-family: 'Inter'; 
+    color:#ffffff;
+}
+
+#a2{
+    font-family: 'Inter'; 
+    color:#2CB67D;
+    text-decoration: none;
+}
