@@ -25,7 +25,7 @@ padding:20px;
 
 .btn-danger{
 height:50px;
-width:90%;
+width:100%;
 background-color: #EF4565 !important;
 font-family: 'Inter' !important;
 font-weight: bold !important;
@@ -61,4 +61,13 @@ span{
     font-family: 'Inter'; 
     color:#2CB67D;
     text-decoration: none;
+}
+
+#btn{
+    text-decoration: none;
+    color:#ffffff;
+    font-family: 'Inter' !important;
+    font-weight: bold !important;
+    height:50px;
+    width:90%;
 }

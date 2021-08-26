@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    background-color:#16161A !important;
+}
+
+#progreso{
+    display: flex;
+}
+
+#x{
+    padding: 16px;
+}
+
+.progress{
+    width:68%;
+    border-radius:50px;
+    height:12px;
+    margin-top:20px;
+}
+
+#life{
+    margin: 16px;
+    color: #fff;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 16px;
+}
