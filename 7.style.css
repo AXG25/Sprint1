@@ -31,17 +31,6 @@ body{
     font-size: 16px;
 }
 
-#preguntas{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    
-}
-
-#niño{
-    margin: 16px;
-}
-
 #text-pregunta{
     margin: 16px;
     font-family: 'Nunito';
@@ -51,60 +40,20 @@ font-size: 22px;
 color: #FFFFFE;
 }
 
-#respuestas{
-    margin: 16px;
-    margin-top:86px;
-  
-}
-
-.input{
-    display:flex;
-    justify-content:space-between;
-    background: #232E35;
-    margin-top: 16px;
-    height: 56px;
-    border: 2px solid #FFFFFE;
-    border-radius: 4px;
-}
-
-.texto{
-    margin: 16px;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    color: #ffffee;
-}
-
-.editar{
-    width:25px;
-    height:25px;
-    border: 2px solid #FFFFFE;;
-    border-radius: 50%;
-    margin: 16px;
-    display:flex;
-    justify-content:center;
-    align-items: center
-}
-
-.check{
-    width: calc(100% - 6px);
-    height:calc(100% - 6px);
-    border-radius: 50%;
-    background-color:#FFFFFE;;
-    display: inline-block;
-    opacity: 0;
+#opciones{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 
 }
 
-.editar input{
-    display:none;
+a{
+    margin: 5px;
 }
 
-.editar input:checked + .check{ 
-    opacity: 1;
-    transition: opacity 0.5s ease;
-}
+/* a:hover{
+    border: 1px solid green;
+} */
 
 #btn-comprobar{
     
@@ -125,4 +74,3 @@ color: #FFFFFE;
         border-radius: 16px !important;
     background-color:#6f42c1!important;
 }
-
